@@ -1,0 +1,103 @@
+{
+  "_from": "@atlaskit/media-ui",
+  "_id": "@atlaskit/media-ui@10.1.7",
+  "_inBundle": false,
+  "_integrity": "sha512-SgTB/qV4bhIudXT3eBjsLBbuuh/PhbXGDccbP7MC0D+fyOY7QvOGWJjhtcKc+OcJQlde7O15JhSPngSuWNDUoA==",
+  "_location": "/@atlaskit/media-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@atlaskit/media-ui",
+    "name": "@atlaskit/media-ui",
+    "escapedName": "@atlaskit%2fmedia-ui",
+    "scope": "@atlaskit",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@atlaskit/media-ui/-/media-ui-10.1.7.tgz",
+  "_shasum": "5c7658c4ab06d70390f9b0576284c9fa073aa6b3",
+  "_spec": "@atlaskit/media-ui",
+  "_where": "C:\\projects\\forks\\atlaskit\\media-ui",
+  "atlaskit:src": "src/index.ts",
+  "author": {
+    "name": "Atlassian Pty Ltd"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@atlaskit/avatar": "^15.0.4",
+    "@atlaskit/avatar-group": "^3.0.4",
+    "@atlaskit/badge": "^11.0.2",
+    "@atlaskit/button": "^12.0.4",
+    "@atlaskit/dropdown-menu": "^7.0.6",
+    "@atlaskit/field-text": "^8.0.3",
+    "@atlaskit/icon": "^16.0.9",
+    "@atlaskit/lozenge": "^7.0.2",
+    "@atlaskit/page": "^9.0.3",
+    "@atlaskit/spinner": "^10.0.7",
+    "@atlaskit/theme": "^8.1.7",
+    "@atlaskit/tooltip": "^13.0.4",
+    "@types/bytes": "^2.4.33",
+    "babel-runtime": "^6.26.0",
+    "blueimp-load-image": "^2.19.0",
+    "bytes": "^2.4.0",
+    "exenv": "^1.2.2",
+    "lodash.debounce": "^4.0.8",
+    "png-chunks-extract": "^1.0.0",
+    "react-render-image": "^1.1.3",
+    "react-transition-group": "^2.2.1",
+    "react-video-renderer": "^2.4.3",
+    "tslib": "^1.9.3"
+  },
+  "deprecated": false,
+  "description": "Includes common components and utilities used by other media packages",
+  "devDependencies": {
+    "@atlaskit/build-utils": "^2.1.0",
+    "@atlaskit/button": "^12.0.4",
+    "@atlaskit/checkbox": "^6.0.4",
+    "@atlaskit/docs": "^7.0.3",
+    "@atlaskit/i18n-tools": "^0.5.0",
+    "@atlaskit/media-test-helpers": "^21.2.3",
+    "@types/enzyme": "^3.1.15",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "jsverify": "^0.8.3",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.2",
+    "react-intl": "^2.6.0"
+  },
+  "homepage": "https://bitbucket.org/atlassian/atlaskit-mk-2#readme",
+  "license": "Apache-2.0",
+  "maintainers": [
+    {
+      "name": "Hector Z"
+    },
+    {
+      "name": "James N"
+    }
+  ],
+  "module": "index.js",
+  "name": "@atlaskit/media-ui",
+  "peerDependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.2",
+    "react-intl": "^2.6.0",
+    "styled-components": "^3.2.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/atlassian/atlaskit-mk-2.git"
+  },
+  "scripts": {
+    "i18n:pull": "rm -rf ./src/i18n && i18n-tools pull --resource media-ui --type ts .",
+    "i18n:push": "i18n-tools push --resource media-ui --type ts ."
+  },
+  "sideEffects": false,
+  "types": "index.d.ts",
+  "version": "10.1.7"
+}
